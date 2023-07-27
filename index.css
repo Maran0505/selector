@@ -1,0 +1,43 @@
+/*group Selector*/
+h1,h2,h3,h4{
+    color: rgb(141, 83, 8);
+    text-align: center;
+}
+
+/*child selector*/
+.cl1 > p{
+    color: blue;
+    font-weight: 900; text-align: center;
+}
+
+div  > .pr{
+    color: rgb(218, 17, 27);
+    text-align: center;
+
+}
+
+div > .pr .pr2{
+    color: rgb(16, 135, 204);
+    text-align: center;
+
+}
+
+/*discendent selector*/
+.d .a .a1 .a2{
+    color: rgba(5, 5, 109, 0.808);
+    font-size: large;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.d .a .b{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*chain*/
+#a p{
+    color: darkred;
+    text-align: center;
+    font-family: monospace;
+    font-size: x-large;
+}
